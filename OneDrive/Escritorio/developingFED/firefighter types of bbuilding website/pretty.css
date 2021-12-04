@@ -1,0 +1,92 @@
+.section{
+    position:relative;
+    width:100%;
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    overflow:hidden;
+}
+    .section h1 {
+        text-align:center top;
+        font-size: 4rem;
+        font-family:cookie;
+        padding: 20px;
+        margin: 15px;
+        z-index: 1;
+        opacity:0.7;
+        color:whitesmoke;
+} 
+#video-container {
+position:absolute;
+top:0;
+left:0;
+width:100%;
+
+
+
+
+}
+.color-overlay {
+position:absolute;
+top:0;
+left:0;
+background-color:lightsalmon;
+width:100%;
+height:100vh;
+opacity:0.3;
+}
+html{
+    font-family:'Times New Roman', Times, serif
+    font-size:24px;
+    color:black;
+
+}
+h1 , h2 {
+    text-align:center;
+    font-size:40px;
+    
+    
+}
+header {
+
+}
+#video-section {
+    width:cover;
+    height:cover;
+
+}
+#class1{ 
+background:url("Building_Construction_CC6.jpg") orangered  center no-repeat;
+color:whitesmoke;
+background-blend-mode:multiply;
+background-size:;
+
+
+
+}
+#class2 {
+Background: url("non-combustible.jfif") rgb(45, 174, 217) center no-repeat ;
+background-blend-mode:multiply;
+background-size:100%;
+color:whitesmoke;
+
+}
+#class3 {
+    Background: url("type 3 building.jfif") rgb(45, 174, 217) center no-repeat ;
+    background-blend-mode:multiply;
+    background-size:100%;
+    color:whitesmoke;
+}
+#class4 {
+    Background: url("type 4 buildings.jfif") rgb(45, 174, 217) center no-repeat ;
+    background-blend-mode:multiply;
+    background-size:100%;
+    color:whitesmoke;
+}
+#class5{
+    Background: url("-Type-V-.jpg") rgb(45, 174, 217) center no-repeat ;
+    background-blend-mode:multiply;
+    background-size:100%;
+    color:whitesmoke;
+}
